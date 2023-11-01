@@ -1,0 +1,22 @@
+.content-contact{
+    height: 481px;
+    margin-top: 32px;
+    padding: 9px;
+   position: relative;
+   overflow: hidden;
+}
+
+.content-contact::after{
+    content: "";
+    background-image: url(../typing.jpg);
+    background-repeat: no-repeat;
+    background-size: 992px 475px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
+

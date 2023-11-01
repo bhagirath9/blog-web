@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ham-1{
+    margin: auto;
+    padding: 0px;
+    display: none;
+}
+
+#ham-2{
+    width: 60px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.web-logo{
+    width: 224px;
+    margin: -25px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 17px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+
+}
+
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content {
+    height: 100%;
+    /* background-color: rgb(215, 215, 247); */
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+   position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url(../typing.jpg);
+    background-repeat:no-repeat;
+    background-size: 1081px ;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content-right img {
+    height: 247px;
+    width: 239px;
+    border: 2px solid black;
+    border-radius: 129px;
+}
+
+.home-articles {
+    padding: 18px;
+    padding-top: 23px;
+    background-color: rgb(248, 239, 239);
+}
+
+.home-article {
+    display: flex;
+    margin: 20px;
+    position: relative;
+}
+
+.home-article-img{
+    width:300px;
+}
+
+
+.article-img{
+    width: 271px;
+}
+
+.home-article-content{
+    align-self: center;
+    text-align: center;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+}
+
+#box{
+   display: none;
+}
+
+#show-all{
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 80vw;
+   text-align: center;
+   display: block;
+}
+
+.showa{
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.showa:hover{
+    color: white;
+    font-size: 14px;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
